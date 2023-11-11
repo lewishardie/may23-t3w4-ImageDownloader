@@ -4,7 +4,7 @@ const { downloadPokemonPicture } = require("./downloader.js");
 
 //-- it will return a Promise
 //-- .then("returned name")
-//-- synch?? way
+//-- synch way
 downloadPokemonPicture().then(saveFileOutput => {
     console.log("new image is saved to: " + saveFileOutput);
 }).catch(error => {
